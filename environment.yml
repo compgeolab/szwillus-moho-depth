@@ -1,0 +1,19 @@
+name: szwillus-moho-depth
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.8.6
+  - pip==20.2.3
+  - numpy==1.19.1
+  - scipy==1.5.2
+  - pandas==1.1.3
+  - xarray==0.16.1
+  - jupyter==1.0.0
+  - jupyterlab==2.2.8
+  - netcdf4==1.5.3
+  - pygmt==0.2.0
+  - gmt==6.1.1
+  - requests==2.24.0
+  # Fatiando
+  - pooch==1.2.0
